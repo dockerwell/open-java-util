@@ -124,7 +124,6 @@ public class DStringUtil {
 		DStringUtil d = new DStringUtil();
 		ArrayList<String> l = new ArrayList<String>();
 		l.add("aa");
-		l.add("ba");
 		l.add("ca");
 		l.add("da");
 		l.add("ea");

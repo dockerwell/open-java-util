@@ -44,19 +44,4 @@ public class DStringUtil {
 			return false;
 		}
 	}
-
-	public static void main(String[] args) {
-		DStringUtil d = new DStringUtil();
-		System.out.println(d.compare(null, null));
-		System.out.println(d.compare("s", null));
-		System.out.println(d.compare(null, "s"));
-		System.out.println(d.compare("r", "s"));
-		System.out.println(d.compare("", ""));
-		System.out.println();
-		System.out.println(d.compareIgnoreCase(null, null));
-		System.out.println(d.compareIgnoreCase("s", null));
-		System.out.println(d.compareIgnoreCase(null, "s"));
-		System.out.println(d.compareIgnoreCase("r", "s"));
-		System.out.println(d.compareIgnoreCase("", ""));
-	}
 }
